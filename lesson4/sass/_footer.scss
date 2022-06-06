@@ -1,0 +1,8 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  color: $primaryColor;
+  ul {
+    list-style: none;
+  }
+}

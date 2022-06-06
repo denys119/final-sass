@@ -1,0 +1,16 @@
+/*
+  Functions
+*/
+button {
+  background: aqua;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+}
+button:hover {
+  background: red;
+}
+
+/*# sourceMappingURL=styles.css.map */

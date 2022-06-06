@@ -1,0 +1,30 @@
+/*
+  For function
+*/
+* {
+  color: rgba(82, 175, 24, 0.608);
+  margin: 0;
+  padding: 0;
+}
+
+.paragraph-1 {
+  margin-left: 5px;
+}
+
+.paragraph-2 {
+  margin-left: 10px;
+}
+
+.paragraph-3 {
+  margin-left: 15px;
+}
+
+.paragraph-4 {
+  margin-left: 20px;
+}
+
+.paragraph-5 {
+  margin-left: 25px;
+}
+
+/*# sourceMappingURL=styles.css.map */

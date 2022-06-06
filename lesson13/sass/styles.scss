@@ -1,0 +1,9 @@
+/*
+  Modules
+*/
+@use './abstracts' as *;
+@use './components';
+
+* {
+  color: $primaryColor;
+}

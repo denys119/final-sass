@@ -1,0 +1,13 @@
+/*
+  Mixins
+*/
+
+@import './mixins';
+
+.flex {
+  @include flex(column, center);
+}
+
+section {
+  @include flex(row, flex-start);
+}

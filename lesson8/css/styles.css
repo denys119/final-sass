@@ -1,0 +1,28 @@
+/*
+  Each function
+*/
+.green-span {
+  color: green;
+}
+
+.orange-span {
+  color: orange;
+}
+
+.red-span {
+  color: red;
+}
+
+h1 {
+  font-size: 68px;
+}
+
+p {
+  font-size: 26px;
+}
+
+span {
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=styles.css.map */

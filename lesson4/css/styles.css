@@ -1,0 +1,41 @@
+/*
+  Partials
+*/
+header {
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+header a {
+  text-decoration: none;
+  margin: 5px;
+  color: black;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(85, 34, 34);
+}
+footer ul {
+  list-style: none;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  min-height: 100vh;
+}
+
+/*# sourceMappingURL=styles.css.map */

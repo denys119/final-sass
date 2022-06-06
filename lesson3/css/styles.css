@@ -1,0 +1,29 @@
+/*
+  Complex Nesting
+*/
+.container {
+  background-color: aqua;
+  width: 300px;
+  height: 300px;
+}
+.container .inside-container {
+  width: 200px;
+  height: 200px;
+  background: peru;
+}
+.container .inside-container button {
+  background: pink;
+}
+.container .inside-container button:hover {
+  cursor: pointer;
+  color: red;
+  background: green;
+}
+.container .inside-container button::after {
+  content: "after";
+}
+.container .inside-container button::before {
+  content: "before";
+}
+
+/*# sourceMappingURL=styles.css.map */

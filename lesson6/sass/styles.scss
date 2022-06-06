@@ -1,0 +1,19 @@
+/*
+  Functions
+*/
+
+@import './functions';
+
+$btnColor: aqua;
+
+button {
+  background: $btnColor;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  &:hover {
+    background: invert-color($btnColor);
+  }
+}

@@ -1,0 +1,22 @@
+/*
+  Extend/Inheritance
+*/
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: pink;
+}
+
+div {
+  @extend header;
+  width: 80%;
+  font-size: 100px;
+}

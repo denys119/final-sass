@@ -1,0 +1,17 @@
+/*
+  While function
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+$i: 1;
+
+@while $i <= 5 {
+  .paragraph-#{$i} {
+    margin-left: 30px * $i;
+  }
+  $i: $i + 1;
+}

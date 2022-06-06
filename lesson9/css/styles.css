@@ -1,0 +1,29 @@
+/*
+  While function
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.paragraph-1 {
+  margin-left: 30px;
+}
+
+.paragraph-2 {
+  margin-left: 60px;
+}
+
+.paragraph-3 {
+  margin-left: 90px;
+}
+
+.paragraph-4 {
+  margin-left: 120px;
+}
+
+.paragraph-5 {
+  margin-left: 150px;
+}
+
+/*# sourceMappingURL=styles.css.map */

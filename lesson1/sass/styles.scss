@@ -1,0 +1,28 @@
+/*
+  Variables
+*/
+
+$primaryBackground: rgb(0, 255, 51);
+$h2Color: pink;
+$h2Font: 100px;
+$width: 200px;
+$height: 200px;
+
+button {
+  background-color: $primaryBackground;
+}
+
+p {
+  background-color: $primaryBackground;
+}
+
+h2 {
+  color: $h2Color;
+  font-size: $h2Font;
+}
+
+div {
+  width: $width;
+  height: $height;
+  background: $primaryBackground;
+}

@@ -1,0 +1,33 @@
+/*
+  Nesting
+*/
+
+// .container {
+//   background-color: aqua;
+//   width: 300px;
+//   height: 300px;
+// }
+
+// .container .inside-container {
+//   width: 200px;
+//   height: 200px;
+//   background: peru;
+// }
+
+// .container .inside-container button {
+//   background: pink;
+// }
+
+.container {
+  background-color: aqua;
+  width: 300px;
+  height: 300px;
+  .inside-container {
+    width: 200px;
+    height: 200px;
+    background: peru;
+    button {
+      background: pink;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+/*
+  Mixins
+*/
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=styles.css.map */

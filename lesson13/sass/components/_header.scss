@@ -1,0 +1,5 @@
+@use '../abstracts' as *;
+header {
+  background-color: $secColor;
+  font-size: $mdFont;
+}

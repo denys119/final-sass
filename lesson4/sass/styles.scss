@@ -1,0 +1,16 @@
+/*
+  Partials
+*/
+@import './variables';
+@import './header';
+@import './footer';
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  min-height: 100vh;
+}

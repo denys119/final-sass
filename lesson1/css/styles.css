@@ -1,0 +1,23 @@
+/*
+  Variables
+*/
+button {
+  background-color: rgb(0, 255, 51);
+}
+
+p {
+  background-color: rgb(0, 255, 51);
+}
+
+h2 {
+  color: pink;
+  font-size: 100px;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background: rgb(0, 255, 51);
+}
+
+/*# sourceMappingURL=styles.css.map */

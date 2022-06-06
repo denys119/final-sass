@@ -1,0 +1,14 @@
+@function light-up($color) {
+  $light: lighten($color, 30%);
+  @return $light;
+}
+
+@function dark-up($color) {
+  $dark: darken($color, 30%);
+  @return $dark;
+}
+
+@function invert-color($color) {
+  $resColor: invert($color);
+  @return $resColor;
+}

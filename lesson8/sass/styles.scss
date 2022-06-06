@@ -1,0 +1,27 @@
+/*
+  Each function
+*/
+
+$font-sizes: (
+  h1: 68px,
+  p: 26px,
+  span: 25px,
+);
+
+$colors: (
+  green-span: green,
+  orange-span: orange,
+  red-span: red,
+);
+
+@each $name, $color in $colors {
+  .#{$name} {
+    color: $color;
+  }
+}
+
+@each $name, $size in $font-sizes {
+  #{$name} {
+    font-size: $size;
+  }
+}
